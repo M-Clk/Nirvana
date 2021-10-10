@@ -14,6 +14,7 @@ namespace Nirvana.Data.Entities
         public DateTime? UpdatedDate { get; set; }
         public DateTime? DeletedDate { get; set; }
         public string Name { get; set; }
+        public string Ean13 { get; set; }
         public IPrice Price { get; set; }
         public IEnumerable<IStock> Stocks { get; set; }
     }//TODO stocks klasoru altinda bu entit/abstractionlar toplanabilir
