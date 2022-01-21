@@ -1,7 +1,6 @@
-﻿using Nirvana.Data.Entities.Abstractions;
-using System.Collections.Generic;
+﻿using Nirvana.Core.Domain.Catalog;
 
-namespace Nirvana.Data.Entities
+namespace Nirvana.Core.Domain.Finance
 {
     public class Tax : ITax
     {

@@ -1,8 +1,7 @@
-﻿using Nirvana.Data.Entities.Abstractions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace Nirvana.Data.Entities
+namespace Nirvana.Core.Domain.Finance
 {
     public class Price : IPrice
     {

@@ -1,6 +1,4 @@
-﻿using Nirvana.Data.Entities.Abstractions;
-
-namespace Nirvana.Data.Entities
+﻿namespace Nirvana.Core.Domain.Stocking
 {
     public class Quantity : IQuantity
     {

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Nirvana.Core.Domain.Common;
 
-namespace Nirvana.Data.Entities.Abstractions
+namespace Nirvana.Core.Domain.Finance
 {
-    public interface IPrice: IAddableEntitiy
+    public interface IPrice : IAddableEntitiy
     {
         int ProductId { get; set; }
         double SaleValue { get; set; }

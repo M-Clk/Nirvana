@@ -1,7 +1,5 @@
-﻿using Nirvana.Data.Entities.Abstractions;
-using System;
-
-namespace Nirvana.Data.Entities
+﻿
+namespace Nirvana.Core.Domain.Catalog
 {
     public class Category : ICategory
     {

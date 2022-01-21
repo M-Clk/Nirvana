@@ -1,4 +1,4 @@
-﻿namespace Nirvana.Data.Entities.Abstractions
+﻿namespace Nirvana.Core.Domain.Common
 {
     public interface IBaseEntity
     {

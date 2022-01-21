@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nirvana.Data.Entities.Abstractions
+namespace Nirvana.Core.Domain.Common
 {
     public interface IAddableEntitiy
     {

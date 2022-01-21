@@ -1,4 +1,6 @@
-﻿namespace Nirvana.Data.Entities.Abstractions
+﻿using Nirvana.Core.Domain.Common;
+
+namespace Nirvana.Core.Domain.Stocking
 {
     public interface IStock : IBaseEntity, IAddableEntitiy, IUpdatableEntity
     {

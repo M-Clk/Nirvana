@@ -1,11 +1,7 @@
-﻿using Nirvana.Data.Entities.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Nirvana.Core.Domain.Finance;
+using Nirvana.Core.Domain.Stocking;
 
-namespace Nirvana.Data.Entities
+namespace Nirvana.Core.Domain.Catalog
 {
     public class Product : IProduct
     {
@@ -17,5 +13,5 @@ namespace Nirvana.Data.Entities
         public string Ean13 { get; set; }
         public IPrice Price { get; set; }
         public IEnumerable<IStock> Stocks { get; set; }
-    }//TODO stocks klasoru altinda bu entit/abstractionlar toplanabilir
+    }
 }
